@@ -24,7 +24,7 @@ header {
 /* Nav styles starts here */
 nav {
     max-width: 1440px;
-    margin: 50px 130px;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
 }
