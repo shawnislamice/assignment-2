@@ -1,0 +1,93 @@
+/* Shared styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header styles start here */
+header {
+    background: #FFF;
+}
+
+
+/* Header styles ends here */
+
+/* Nav styles starts here */
+nav {
+    max-width: 1440px;
+    margin: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .name-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.name-logo h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 650;
+}
+
+.name-logo .travel-span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 650;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 34px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    transition: 0.5s;
+
+
+}
+
+nav ul li #home-orange {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+nav ul li #home-orange:hover {
+    color: #424247;
+
+
+}
+
+nav ul li a:hover {
+    background-color: #F00;
+    border-radius: 5px;
+    transform: scale(0.75);
+}
+
+
+
+/* Nav styles ends here */

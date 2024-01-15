@@ -1,0 +1,23 @@
+@media screen and (max-width:600px) {
+    nav{
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 15px;
+        margin: 0 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 12px;
+    }
+    .name-logo{
+        justify-content: center;
+        align-items: center;
+    }
+    .name-logo h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    
+}
