@@ -1,26 +1,67 @@
 @media screen and (max-width:600px) {
     /* Nav styles starts here */
-    
-    nav{
+
+    nav {
         flex-direction: column;
         padding: 10px;
         margin-top: 15px;
         margin: 0 20px;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         justify-content: center;
         margin-top: 10px;
         gap: 12px;
     }
-    .name-logo{
+
+    .name-logo {
         justify-content: center;
         align-items: center;
     }
-    .name-logo h1{
+
+    .name-logo h1 {
         font-size: 30px;
         width: 100%;
     }
+
     /* Nav styles ends here */
-    
+    /* Explore your travel starts here */
+    .explore-tour-travel {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .explore-content h1 {
+        color: #FFF;
+        font-size: 26px;
+        font-weight: 800;
+        padding-top: 15px;
+    }
+
+    .tour-selector-container {
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    .tour-selector-container>* {
+        width: 255px;
+        height: 52px;
+    }
+    #input-where-go, #country-selector, #type-selector::placeholder{
+        width: 100%;
+        height: 50px;
+    }
+    #type-selector{
+        width: 100%;
+        height: 50px;
+    }
+    .find-now-btn{
+        width: 100%;
+    }
+
+    /* Explore your travel ends here */
+
 }

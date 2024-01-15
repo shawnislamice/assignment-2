@@ -24,7 +24,7 @@ header {
 /* Nav styles starts here */
 nav {
     max-width: 1440px;
-    margin: 50px auto;
+    margin: 50px 130px;
     display: flex;
     justify-content: space-between;
 }
@@ -91,3 +91,117 @@ nav ul li a:hover {
 
 
 /* Nav styles ends here */
+/* Explore your travel starts here */
+.explore-tour-travel {
+    max-width: 1440px;
+    margin: 0 130px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group-13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 500px;
+
+}
+
+.explore-content h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.explore-content p {
+    color: #FFF;
+    text-align: center;
+    ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 48px;
+}
+
+.tour-selector-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+    padding: 10px;
+    margin: 0 185px;
+    
+}
+
+#input-where-go,
+#country-selector,
+#type-selector {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+}
+
+#input-where-go,
+#country-selector,
+#type-selector::placeholder {
+    color: rgba(34, 34, 83, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    width: 174px;
+    height: 40px;
+
+}
+
+#input-where-go::placeholder {
+    padding: 16px;
+}
+
+#option-when {
+    margin-left: 16px;
+}
+
+#type-selector {
+    width: 174px;
+    height: 40px;
+}
+
+#type-selector {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+#country-selector {
+    padding: 10px;
+    
+}
+
+.find-now-btn {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 10px 32px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.find-now-btn:hover{
+    background-color: #131318;
+    transform: scale(0.9);
+
+}
+
+/* Explore your travel ends here */
