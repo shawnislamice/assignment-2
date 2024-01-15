@@ -11,6 +11,12 @@
     font-family: 'Mulish', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+
+}
+
+img {
+    object-fit: cover;
+    cursor: pointer;
 }
 
 /* Header styles start here */
@@ -133,7 +139,7 @@ nav ul li a:hover {
     gap: 24px;
     padding: 10px;
     margin: 0 185px;
-    
+
 }
 
 #input-where-go,
@@ -178,7 +184,7 @@ nav ul li a:hover {
 
 #country-selector {
     padding: 10px;
-    
+
 }
 
 .find-now-btn {
@@ -198,10 +204,75 @@ nav ul li a:hover {
     font-weight: 700;
     transition: 0.5s;
 }
-.find-now-btn:hover{
+
+.find-now-btn:hover {
     background-color: #131318;
     transform: scale(0.9);
 
 }
 
 /* Explore your travel ends here */
+
+/* Popular Tours styles starts here */
+.popular-tours {
+    max-width: 1440px;
+    margin: 100px 130px;
+}
+
+.popular-tours {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.popular-tours-content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.popular-tours-content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+
+.popular-tours-content ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px 0;
+
+}
+
+.popular-tours-content ul {
+    padding-left: 25px;
+    padding-bottom: 16px;
+}
+
+.popular-tour-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    outline: none;
+    padding: 14px 28px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.popular-tour-btn:hover{
+    transform: scale(0.9);
+    background-color: #131318;
+}
+
+/* Popular Tours styles ends here */
+
+/* Main styles */

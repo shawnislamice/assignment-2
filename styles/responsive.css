@@ -63,5 +63,29 @@
     }
 
     /* Explore your travel ends here */
+    /* Popular tours styles starts here */
+    .popular-tours{
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .popular-tours .popular-img-content img{
+       max-width: 335px;
+       max-height: 342px;
+       margin-top: 5px;
+    }
+    
+    .popular-tours-content h1{
+        font-size: 24px;
+    }
+    .popular-tours-content p{
+        font-size: 14px;
+    }
+    .popular-tour-btn{
+        margin-bottom: 5px;
+    }
+    /* Popular tours styles ends here */
+    
 
 }
