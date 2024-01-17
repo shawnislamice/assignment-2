@@ -566,7 +566,7 @@ nav ul li a:hover {
 
 }
 
-.content-1 {}
+
 
 .tour-card-1 .tour-card-title {
     color: #131318;
@@ -1056,15 +1056,6 @@ form {
     margin: 100px 130px;
 }
 
-.brands>div>img {
-    /* max-width: 150px;
-    max-height: 150px; */
-}
-
-/* .brands-1>div {
-    max-width: 100px;
-    max-height: 30px;
-} */
 
 .brands h3 {
     color: #131318;
@@ -1072,6 +1063,7 @@ form {
     font-weight: 600;
     line-height: 60px;
     text-align: center;
+    padding: 50px 0;
 }
 
 .ambassadors {
