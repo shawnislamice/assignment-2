@@ -82,18 +82,16 @@ nav ul li a {
 nav ul li #home-orange {
     color: #FF5400;
     font-size: 18px;
-    font-weight: 700;
+    
 }
 
-nav ul li #home-orange:hover {
-    color: #424247;
 
-
+nav ul li a{
+    transition: 0.5s;
 }
-
 nav ul li a:hover {
-    background-color: #F00;
-    border-radius: 5px;
+    color: #FF5400;
+    
     transform: scale(0.75);
 }
 
@@ -117,7 +115,7 @@ nav ul li a:hover {
 .explore-content h1 {
     color: #FFF;
     font-size: 64px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -893,15 +891,18 @@ nav ul li a:hover {
     padding-bottom: 10px;
 }
 
-.video-content #video {
-    width: 550px;
-    height: 400px;
+.video-content video {
+    max-width: 550px;
+    height: 100%;
     border-radius: 16px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
     outline: none;
+    
 
 
 }
+
+
 
 /* A simple perfect place styles ends here */
 
@@ -1091,6 +1092,7 @@ form {
 /* Brand styles ends here */
 /* Helping-find Styles starts here */
 .helping-find {
+    max-width: 1440px;
     margin: 100px 130px;
     display: flex;
     gap: 50px;

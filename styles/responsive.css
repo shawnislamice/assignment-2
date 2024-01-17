@@ -1,6 +1,10 @@
+
 @media screen and (max-width:600px) {
     /* Nav styles starts here */
-
+    .hide{
+        display: none;
+    }
+    
     nav {
         flex-direction: column;
         padding: 10px;
@@ -121,6 +125,7 @@
 
     .grid-container {
         margin-left: 0;
+        padding: 15px;
     }
 
     .choose-destination-content h1 {
@@ -437,7 +442,7 @@
         margin: 10px;
         padding: 10px;
         flex-direction: column;
-        width: 100%;
+        width: 97%;
     }
 
     .simple-perfect-place-content h3 {
@@ -472,16 +477,18 @@
     /* A simple perfect place ends here */
     /* Newsletter section styles starts here */
     .news-letter {
-        margin: 10px;
-        padding: 10px;
+        margin: 5px;
+        padding: 8px;
         flex-direction: column;
         gap: 15px;
-
+        width: 97%;
+        overflow-x: hidden;
     }
 
     .news-letter-contents {
-        max-width: 375px;
+        max-width: 360px;
         width: 100%;
+        height: 50%;
         padding-top: 24px;
     }
 
@@ -492,16 +499,16 @@
 
     .news-letter-description {
         font-size: 14px;
-        max-width: 320px;
+        max-width: 280px;
     }
 
     .news-letter-img-content img {
-        max-width: 350px;
+        max-width: 360px;
         max-height: 300px;
         width: 100%;
-        height: 100%;
+        height: 90%;
         display: block;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-bottom: 10px;
     }
 
@@ -561,13 +568,13 @@
     /* Helping find styles starts here */
     .helping-find{
         flex-direction: column;
-        margin: 10px;
+        margin: 15px;
         padding: 10px;
     }
     .helping-hand-img-content{
         margin: 0 auto;
         max-width: 400px;
-        width: 75%;
+        width: 70%;
     }
     .helping-find-content{
         padding: 10px;
@@ -580,6 +587,11 @@
         margin: 10px 0;
     }
     /* Helping find styles ends here */
+    /* footer styles starts here  */
+    .footer-underline{
+        width: 100%;
+    }
+    /* footer styles ends here  */
     
 }
 
