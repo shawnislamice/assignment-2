@@ -115,11 +115,38 @@
     }
 
     /* Popular tours styles ends here */
-    /* choose-destination styles starts here */
-    .choose-destination {
-
+    /* Video section starts here */
+    .video-content {
         margin: 10px;
         padding: 10px;
+        width: 97%;
+        height: 50%;
+        
+        
+    }
+    .video-container video{
+        object-fit: cover;
+    }
+    
+
+    .video-container h1 {
+        font-size: 24px;
+
+    }
+
+    .video-container p {
+        font-size: 14px;
+        width: 80%;
+
+
+    }
+    /* Video section ends here */
+    /* choose-destination styles starts here */
+    .choose-destination {
+       
+        margin: 10px;
+        padding: 10px;
+        
 
     }
 
@@ -130,6 +157,7 @@
 
     .choose-destination-content h1 {
         font-size: 20px;
+        margin-top: 250px;
     }
 
     .choose-destination-content p {
@@ -165,6 +193,7 @@
     .why-choose-us {
         margin: 10px;
         padding: 10px;
+        
     }
 
     .why-choose-us-content h3 {
@@ -465,6 +494,8 @@
     .video-content {
         max-width: 400px;
         max-height: 300px;
+        padding-bottom: 0;
+        margin: 0 auto;
     }
 
     .video-content #video {
@@ -481,8 +512,11 @@
         padding: 8px;
         flex-direction: column;
         gap: 15px;
-        width: 97%;
+        width: 95%;
         overflow-x: hidden;
+        margin: 0 auto;
+        margin-left: 15px;
+        
     }
 
     .news-letter-contents {
